@@ -45,13 +45,13 @@ function Home() {
         </div>
         <div className="flex w-full justify-center items-center gap-2">
           <button
-            className={`w-[25px] aspect-square rounded-full border-typo border ${
+            className={`w-[12px] aspect-square rounded-full border-typo border ${
               left ? "bg-typo" : "bg-background"
             }`}
             onClick={() => setLeft(true)}
           ></button>
           <button
-            className={`w-[25px] aspect-square rounded-full border-typo border ${
+            className={`w-[12px] aspect-square rounded-full border-typo border ${
               left !== true ? "bg-typo" : "bg-background"
             }`}
             onClick={() => setLeft(false)}
